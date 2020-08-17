@@ -1,0 +1,3 @@
+-main Main
+--class-path src
+--js out.js
