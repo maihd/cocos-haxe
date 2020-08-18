@@ -7,7 +7,7 @@ extern class Texture2D extends Object {
     @:selfCall
     public function new();
 
-    public var name(get, set) : Int;
+    public var name(get, set) : UInt;
 
     public var pixelFormat(get, set) : Int;
     public var pixelHeight(get, set) : Int;
