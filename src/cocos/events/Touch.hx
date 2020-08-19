@@ -1,10 +1,9 @@
 package cocos.events;
 
 import cocos.math.Point;
-import cocos.core.Object;
 
 @:native("cc.Touch")
-extern class Touch extends Object {
+extern class Touch {
     public function getID() : Int;
     public function setID(id : Int) : Void;
 

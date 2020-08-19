@@ -1,10 +1,9 @@
 package cocos.events;
 
 import cocos.display.Node;
-import cocos.core.Object;
 
 @:native("cc.Event")
-extern class Event extends Object {
+extern class Event {
     public static final ACCELERATION : Int;
     public static final CUSTOM : Int;
     public static final FOCUS : Int;

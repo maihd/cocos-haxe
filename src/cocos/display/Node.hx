@@ -1,9 +1,7 @@
 package cocos.display;
 
-import cocos.core.Object;
-
 @:native("cc.Node")
-extern class Node extends Object {
+extern class Node {
     @:selfCall
     public function new();
 

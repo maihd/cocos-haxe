@@ -1,10 +1,9 @@
 package cocos.actions;
 
-import cocos.core.Object;
 import cocos.display.Node;
 
 @:native("cc.Action")
-extern class Action extends Object {
+extern class Action {
     public var originalTarget(get, set) : Node;
     public var tag(get, set) : Int;
     public var target(get, set) : Node;

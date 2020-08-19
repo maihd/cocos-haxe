@@ -1,9 +1,7 @@
 package cocos.graphics;
 
-import cocos.core.Object;
-
 @:native("cc.GLProgram")
-extern class GLProgram extends Object {
+extern class GLProgram {
     @:selfCall
     public function new(vshaderFileName : String, fshaderFileName : String);
 

@@ -1,9 +1,7 @@
 package cocos.graphics;
 
-import cocos.core.Object;
-
 @:native("cc.Texture2D")
-extern class Texture2D extends Object {
+extern class Texture2D {
     @:selfCall
     public function new();
 
