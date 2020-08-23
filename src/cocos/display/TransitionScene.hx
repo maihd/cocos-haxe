@@ -1,7 +1,7 @@
 package cocos.display;
 
 @:native("cc.TransitionScene")
-extern class TransitionScene {
+extern class TransitionScene extends Scene {
     @:selfCall
     public function new(duration : Float, scene : Scene);
 
