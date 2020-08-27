@@ -11,7 +11,7 @@ extern class CallFunc extends Action {
 
     public function getTargetCallback() : Any;
 
-    public function initWithFunction(callback : () -> Void, ?target : Any) : Boot;
+    public function initWithFunction(callback : () -> Void, ?target : Any) : Bool;
 
     public function setTargetCallback(target : Any) : Void;
 }
