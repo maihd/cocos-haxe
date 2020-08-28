@@ -1,7 +1,7 @@
 package cocos.actions;
 
 @:native("cc.Hide")
-extern class Hide extends FiniteTimeAction {
+extern class Hide extends ActionInstant {
     @:selfCall
     public function new();
 
