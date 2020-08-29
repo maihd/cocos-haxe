@@ -1,9 +1,15 @@
 package cocos.actions;
 
+import cocos.math.Point;
+
 @:native("cc.Place")
 extern class Place extends ActionInstant {
     @:selfCall
-    public function new();
+    @:overload(function (x : Float, y : Float) : Void {})
+    public function new(position : Point);
+
+    @:overload(function (x : Float, y : Float) : Bool {})
+    public function init(position : Point) : Bool;
 
     public function clone() : Place;
 
