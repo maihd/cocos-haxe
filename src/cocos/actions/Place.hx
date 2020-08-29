@@ -9,7 +9,7 @@ extern class Place extends ActionInstant {
     public function new(position : Point);
 
     @:overload(function (x : Float, y : Float) : Bool {})
-    public function init(position : Point) : Bool;
+    public function initWithPosition(position : Point) : Bool;
 
     public function clone() : Place;
 
