@@ -3,7 +3,7 @@ package cocos.actions;
 import cocos.math.Point;
 
 @:native("cc.MoveTo")
-extern class MoveTo extends MoveBy {
+extern class MoveTo extends ActionInterval {
     @:selfCall
     @:overload(function (duration : Float, x : Float, y : Float) : Void {})
     public function new(duration : Float, position : Point);
