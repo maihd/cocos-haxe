@@ -2,8 +2,8 @@ package cocos.actions;
 
 import cocos.math.Point;
 
-@:native("cc.MoveBy")
-extern class MoveBy extends ActionInterval {
+@:native("cc.MoveTo")
+extern class MoveTo extends MoveBy {
     @:selfCall
     @:overload(function (duration : Float, x : Float, y : Float) : Void {})
     public function new(duration : Float, position : Point);
@@ -11,7 +11,7 @@ extern class MoveBy extends ActionInterval {
     @:overload(function (duration : Float, x : Float, y : Float) : Bool {})
     public function initWithDuration(duration : Float, position : Point) : Bool;
 
-    public function clone() : MoveBy;
+    public function clone() : MoveTo;
 
-    public function reverse() : MoveBy;
+    public function reverse() : MoveTo;
 }
