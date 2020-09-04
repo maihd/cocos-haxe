@@ -8,4 +8,4 @@ extern class Blink extends ActionInterval {
 
     public function clone() : Blink;
     public function reverse() : Blink;
-}
+}BezierBy
